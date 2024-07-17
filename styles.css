@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #04a5f5;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #04a5f5;
+}
+
+.container {
+    display: flex;
+
+}
+
+.sidebar {
+    width: 200px;
+    height: 350vh;
+    overflow-y: auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    background-color: #00b2f8;
+}
+
+.content {
+    flex: 1;
+    padding: 50px;
+    overflow: auto;
+}
+
+#game {
+    text-align: center;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#Log_Tecazuay {
+    width: 45px;
+    padding-left: 3px
+}
+
+footer{
+    background-color: rgb(16, 192, 251);
+    font-family: Verdana;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#fondo {
+    margin-top: 20px;
+    width: 40%;
+    height: 20%;
+}
+
+#fondov2 {
+    width: 100%;
+}
+
+
+button {
+    background-color: #006aff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 30px; 
+}
+
+#menucss {
+    background-color: #0ab1ff;
+    color: #333;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 23%;
+    box-sizing: border-box;
+}
+
+#Fondo {
+    margin-bottom: 30px; 
+    margin-left: auto; 
+    width: 100%;
+}
+
+#menucss {
+    margin-top: 20px; 
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    overflow: auto;
+    height: 100%;
+}
+
+.contentv2 {
+    flex-grow: 1;
+    padding: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.contentv3 {
+    flex-grow: 1;
+    padding: 1px;
+    background-color: #fff;
+    box-sizing: border-box;
+    overflow: auto;
+    height: 10%;
+}
+
+#Menucss {
+    background-color: rgb(0, 185, 236);
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 10%;
+    box-sizing: border-box;
+}
+
+h3{
+    font-family: Calibri, sans-serif; 
+    font-size: 16px;    
+}
+
+#Menucssv2 {
+    background-color: rgb(0, 185, 236);
+    color: #333;
+    padding: 18px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 14%;
+    box-sizing: border-box;
+}
+
+
+
+
